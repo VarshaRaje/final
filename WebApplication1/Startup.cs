@@ -39,7 +39,7 @@ namespace WebApplication1
 			app.UseSwagger();
 			app.UseSwaggerUI(c =>
 			{
-				c.SwaggerEndpoint("/swagger/v1/swagger.json", "My APIS");
+				c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIS");
 				c.RoutePrefix = string.Empty;
 			});
 
